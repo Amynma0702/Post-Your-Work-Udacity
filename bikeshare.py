@@ -210,9 +210,9 @@ def user_stats(df, city):
       
     # Display earliest, most recent, and most common year of birth
     try:
-        earliest = df['Birth Year'].min() #Oldest birth year
-        recent = df['Birth Year'].max() #Youngest birth Year
-        common = df['Birth Year'].mode() #This gives the Common Birth Year 
+        	earliest = df['Birth Year'].min() #Oldest birth year
+        	recent = df['Birth Year'].max() #Youngest birth Year
+        	common = df['Birth Year'].mode() #This gives the Common Birth Year 
         print(' ' * 40)
         print('Counts of User Birth Year:')
         print('Oldest User(s) Birth Year: ', int(earliest))
@@ -250,11 +250,11 @@ def main():
         
         df = load_data(city, month, day)
         #print(df)
-        time_stats(df)
-        station_stats(df)
-        trip_duration_stats(df)
-        user_stats(df, city)
-        individual_data(df)
+        	time_stats(df)
+        	station_stats(df)
+        	trip_duration_stats(df)
+        	user_stats(df, city)
+        	individual_data(df)
 
         restart = input("\nWould you like to restart? Enter yes or no.\n")
         if restart.lower() != 'yes':
