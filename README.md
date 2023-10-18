@@ -27,4 +27,10 @@ SECTION IV: Refactor Code
 
 Change on SECTION IV very important 
 
+Very important update
+
+SECTION III: Additional Changes to Documentation
+
+update this new line
+
 AnhNM12
