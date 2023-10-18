@@ -23,4 +23,8 @@ Git documentation is very usefull.
 
 https://git-scm.com/doc
 
+SECTION IV: Refactor Code
+
+Change on SECTION IV very important 
+
 AnhNM12
